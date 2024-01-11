@@ -16,7 +16,7 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras.backend import clear_session
 
-dataset = pd.read_excel('/Users/Yuto/Downloads/factory_process_CLA.xlsx')
+dataset = pd.read_excel('/factory_process_CLA.xlsx')
 
 X = dataset.iloc[:, 0:41].values
 
